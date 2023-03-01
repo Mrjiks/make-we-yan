@@ -1,0 +1,20 @@
+{
+  "name": "mern-chatapp",
+  "version": "1.0.0",
+  "description": "React and socket io based chat app.",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon backend/server.js"
+  },
+  "author": "Harrison Obetta",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mongoose": "^7.0.0",
+    "nodemon": "^2.0.20",
+    "remove": "^0.1.5"
+  }
+}
